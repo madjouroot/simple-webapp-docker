@@ -1,5 +1,4 @@
 FROM ubuntu:16.04 AS base
-RUN ls
 RUN cd /app
 RUN ls
 WORKDIR /opt
